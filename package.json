@@ -1,0 +1,21 @@
+{
+  "name": "grpc-nodejs-example",
+  "version": "1.0.0",
+  "description": "Example project of using gRPC in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --watch server server/app.js",
+    "client": "nodemon --watch client client/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.9",
+    "dotenv": "^16.0.0",
+    "grpc": "^1.24.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
